@@ -1,0 +1,10 @@
+import java.util.*;
+import java.lang.*;
+
+class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		System.out.println(String.format(".%01d", Math.round(24/100.0)));
+	}
+}

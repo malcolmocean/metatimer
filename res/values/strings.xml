@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MetaTimer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_devmode">Dev Mode</string>
+    
+    <string name="hint_hour">hh</string>
+    <string name="hint_min">mm</string>
+    <string name="hint_sec">ss</string>
+    
+    <string name="total_time">Total MetaTime Today: </string>
+    <string name="zero_secs">0s</string>
+    
+    <string name="colon">:</string>
+    <string name="default_timer">10:00</string>
+    <string name="zeros">00</string>
+    
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    
+    <color name="green">#009900</color>
+    <color name="red">#990000</color>
+
+</resources>

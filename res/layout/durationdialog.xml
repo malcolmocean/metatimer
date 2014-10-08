@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+        android:orientation="horizontal"
+        >
+        
+		<EditText 
+		    android:id="@+id/set_hours"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+        	android:textSize="48sp"
+        	android:inputType="number"
+        	android:maxLength="2"
+		    android:hint="@string/hint_hour"
+		    android:text="@string/zeros"
+		    />
+		<TextView
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+        	android:textSize="48sp"
+		    android:text="@string/colon" 
+		    />
+		<EditText 
+		    android:id="@+id/set_mins"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+        	android:textSize="48sp"
+        	android:inputType="number"
+        	android:maxLength="2"
+		    android:hint="@string/hint_min"
+		    android:text="@string/zeros"
+		    />
+		<TextView
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+        	android:textSize="48sp"
+		    android:text="@string/colon" 
+		    />
+		<EditText 
+		    android:id="@+id/set_secs"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+        	android:textSize="48sp"
+        	android:inputType="number"
+        	android:maxLength="2"
+		    android:hint="@string/hint_sec"
+		    android:text="@string/zeros"
+		    />
+        
+    </LinearLayout>
+
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    	android:gravity="center"
+        style="@android:attr/buttonBarStyle"
+        >
+		<Button
+    		android:layout_width="0dip"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		style="@android:attr/buttonBarButtonStyle"
+    		android:id="@+id/btn_cancel"
+		    android:text="@android:string/cancel" />
+		<Button
+    		android:layout_width="0dip"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		style="@android:attr/buttonBarButtonStyle"
+    		android:id="@+id/btn_ok"
+		    android:text="@android:string/ok" />
+    </LinearLayout>
+</LinearLayout>
